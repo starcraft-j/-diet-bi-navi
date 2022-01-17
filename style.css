@@ -301,6 +301,12 @@ table.r-r-table td {
 .r-txtbox p {
     margin-bottom: 15px;
 }
+.r-txtbox .img-box {
+    text-align: center;
+}
+.r-txtbox .img-box img {
+    width: 80%;
+}
 
 p {
     font-size: 1.1em;
