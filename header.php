@@ -132,6 +132,10 @@ print '<?xml version="1.0" encoding="UTF-8"?>'; ?>
 
                 <img src="./img/fv/binavi_topBn_pc-i.jpg" />
 
+                <?php } elseif($_GET['pat'] == "j") { ?>
+
+                <img src="./img/fv/binavi_topBn_pc-j.jpg" />
+
                 <?php } elseif ($_SERVER['REQUEST_URI']=="/index_a-test.php") { ?>
 
                 <img src="./img/fv/binavi_topBn_pc-a-test.jpg" />

@@ -7,23 +7,23 @@
 
     <div class="title-wrap">
 
-        <h1 class="left">「血糖値が高いと健康診断で指摘された」<br> 「糖質制限は長く続かない。」</span></h1>
+        <h1 class="left">「健康診断で尿酸値が高いと言われた…」<br> 「プリン体の多いビールやお肉・お魚を我慢するのはつらい…」</span></h1>
 
         <h1 class="right">とお悩みの方へ</span></h1>
 
-        <h1 class="center">本当におすすめ！<br>厳選！血糖値ケアサプリ4選！</span></h1>
+        <h1 class="center">本当におすすめ！<br>厳選！尿酸値対策サプリ3選！</span></h1>
 
     </div>
     <!--.title-wrap end-->
 
     <div class="txt-wrap">
 
-        <p>当サイトでは数多くの血糖値ケアサプリの成分や利用者の口コミを徹底調査！</p><br>
+        <p>当サイトでは数多くの尿酸値対策サプリの成分や利用者の口コミを徹底調査！</p><br>
 
-        <p><span class="bold bg-y">【血糖値ケアサプリの正しい選び方】</span>と<br><span class="bold bg-y">【厳選！おすすめの血糖値ケアサプリ】</span>をご紹介します。
+        <p><span class="bold bg-y">【尿酸値対策サプリの正しい選び方】</span>と<br><span class="bold bg-y">【厳選！おすすめの尿酸値対策サプリ】</span>をご紹介します。
         </p><br>
 
-        <p>「血糖値は気になるけど、食事も楽しみたい！」とお考えの方は是非参考にしてみてください。</p><br>
+        <p>「本気で高めの尿酸値を下げたい」とお考えの方は是非参考にしてみてください。</p><br>
 
         <p>早速、比較表でご紹介します。</p>
         　　　　　　　　　　　　
@@ -41,13 +41,12 @@
 
     <div id="overBox">
 
-        <table class="table-01 table-over table-rank4" cellspacing="1">
+        <table class="table-01 table-rank3" cellspacing="1">
 
-            <colgroup width="130">
+            <!-- <colgroup width="130">
             <colgroup width="40%">
             <colgroup width="40%">
-            <colgroup width="40%">
-            <colgroup width="40%">
+            <colgroup width="40%"> -->
 
             <tbody>
 
@@ -84,8 +83,8 @@
                     <th style="vertical-align: top">
                         <p>
                             <a class="link-img" target="_blank"
-                                href="./links/tablet-k.php<?php echo "?".$_SERVER['QUERY_STRING'] ?>">
-                                <img src="./img/tablet-k.jpg" alt="" />
+                                href="./links/double.php<?php echo "?".$_SERVER['QUERY_STRING'] ?>">
+                                <img src="./img/double.png" alt="" />
                             </a>
                         </p>
                     </th>
@@ -93,8 +92,8 @@
                     <th style="vertical-align: top">
                         <p>
                             <a class="link-img" target="_blank"
-                                href="./links/tablet-s.php<?php echo "?".$_SERVER['QUERY_STRING'] ?>">
-                                <img src="./img/tablet-s.jpg" alt="" />
+                                href="./links/kiku.php<?php echo "?".$_SERVER['QUERY_STRING'] ?>">
+                                <img src="./img/kiku.png" alt="" />
                             </a>
                         </p>
                     </th>
@@ -103,20 +102,10 @@
                     <th style="vertical-align: top">
                         <p>
                             <a class="link-img" target="_blank"
-                                href="./links/osaeru.php<?php echo "?".$_SERVER['QUERY_STRING'] ?>">
-                                <img src="./img/osaeru.jpg" alt="" />
+                                href="./links/tablet-nyo.php<?php echo "?".$_SERVER['QUERY_STRING'] ?>">
+                                <img src="./img/tablet-nyo.png" alt="" />
                             </a>
                         </p>
-                    </th>
-
-                    <th style="vertical-align: top">
-                        <p>
-                            <a class="link-img" target="_blank"
-                                href="./links/kaitou.php<?php echo "?".$_SERVER['QUERY_STRING'] ?>">
-                                <img src="./img/kaitocha.jpg" alt="" />
-                            </a>
-                        </p>
-                        
                     </th>
 
                 </tr>
@@ -126,7 +115,7 @@
                         <p>
                             <span class="lbg">
                                 <a target="_blank"
-                                    href="./links/tablet-k.php<?php echo "?".$_SERVER['QUERY_STRING'] ?>">空腹時血糖値が気になる方のタブレット</a>
+                                    href="./links/double.php<?php echo "?".$_SERVER['QUERY_STRING'] ?>">ダブルバスター</a>
                             </span>
                         </p>
                     </td>
@@ -134,7 +123,7 @@
                         <p>
                             <span class="lbg">
                                 <a target="_blank"
-                                    href="./links/tablet-s.php<?php echo "?".$_SERVER['QUERY_STRING'] ?>">食後の血糖値が気になる方のタブレット</a>
+                                    href="./links/kiku.php<?php echo "?".$_SERVER['QUERY_STRING'] ?>">尿酸キクＡ錠</a>
                             </span>
                         </p>
                     </td>
@@ -143,18 +132,11 @@
                         <p>
                             <span class="lbg">
                                 <a target="_blank"
-                                    href="./links/osaeru.php<?php echo "?".$_SERVER['QUERY_STRING'] ?>">オサエルEX</a>
+                                    href="./links/table-nyo.php<?php echo "?".$_SERVER['QUERY_STRING'] ?>">尿酸値が高めの方のタブレット</a>
                             </span>
                         </p>
                     </td>
-                    <td>
-                        <p>
-                            <span class="lbg">
-                                <a target="_blank"
-                                    href="./links/kaitou.php<?php echo "?".$_SERVER['QUERY_STRING'] ?>">快糖茶（かいとうちゃ）</a>
-                            </span>
-                        </p>
-                    </td>
+                    
                 </tr>
 
 
@@ -179,16 +161,9 @@
 
                     <td>
                         <p>
-                            <img src="./img/review_45.gif" alt="" />
-                        </p>
-                        <p class="f-13">4.5/5.0</p>
-                    </td>
-
-                    <td>
-                        <p>
                             <img src="./img/review_4.gif" alt="" />
                         </p>
-                        <p class="f-13">4.3/5.0</p>
+                        <p class="f-13">4.0/5.0</p>
                     </td>
 
                 </tr>
@@ -201,24 +176,20 @@
 
                     
                     <td>
-                        <img class="small" src="./img/n_img/r_check_02.png" alt="" />
-                        <p>ナリンジン</p>
+                        <img class="small" src="./img/n_img/r_check_01.png" alt="" />
+                        <p>アンセリン</p>
                     </td>
 
                     <td>
                         <img class="small" src="./img/n_img/r_check_01.png" alt="" />
-                        <p>サラシノール</p>
+                        <p>ルテオリン（菊の花由来ポリフェノール）</p>
                     </td>
 
                     <td>
-                        <img class="small" src="./img/n_img/r_check_02.png" alt="" />
-                        <p>ターミナリアベリリカ由来没食子酸</p>
+                        <img class="small" src="./img/n_img/r_check_01.png" alt="" />
+                        <p>アンセリン</p>
                     </td>
 
-                    <td>
-                        <img class="small" src="./img/n_img/r_check_02.png" alt="" />
-                        <p>難消化性デキストリン</p>
-                    </td>
                 </tr>
 
 
@@ -242,37 +213,8 @@
                     <p>機能性表示食品</p>
                     </td>
 
-                    <td>
-                    <img class="small" src="./img/n_img/r_check_01.png" alt="" />
-                    <p>機能性表示食品</p>
-                    </td>
                 </tr>
 
-                
-                <tr>
-
-                    <td class="table-title width">
-                        <h6>即効性</h6>
-                    </td>
-
-                    <td>
-                        <img class="small" src="./img/n_img/r_check_01.png" alt="" />
-                    </td>
-
-                    <td>
-                        <img class="small" src="./img/n_img/r_check_01.png" alt="" />
-                    </td>
-
-                    <td>
-                        <img class="small" src="./img/n_img/r_check_02.png" alt="" />
-                    </td>
-
-                    <td>
-                        <img class="small" src="./img/n_img/r_check_02.png" alt="" />
-                    </td>
-
-                   
-                </tr>
 
 
                 <tr>
@@ -280,27 +222,22 @@
                     <td class="table-title">
                         <h6>通常価格</h6>
                     </td>
-
-                   
-                    <td>
-                        <img class="small" src="./img/n_img/r_check_02.png" alt="" />
-                        <p>4,374円（税込）</p>
-                    </td>
-
-                    <td>
-                        <img class="small" src="./img/n_img/r_check_02.png" alt="" />
-                        <p>3,888円（税込）</p>
-                    </td>
-
-                    <td>
-                        <img class="small" src="./img/n_img/r_check_02.png" alt="" />
-                        <p>3,980円（定期）</p>
-                    </td>
-
+                    
                     <td>
                         <img class="small" src="./img/n_img/r_check_02.png" alt="" />
                         <p>4,980円（定期）</p>
                     </td>
+
+                    <td>
+                        <img class="small" src="./img/n_img/r_check_01.png" alt="" />
+                        <p>3,456円（定期）</p>
+                    </td>
+
+                    <td>
+                        <img class="small" src="./img/n_img/r_check_01.png" alt="" />
+                        <p>3,402円（定期）</p>
+                    </td>
+
                 </tr>
                 
 
@@ -311,24 +248,20 @@
                     </td>
 
                     <td style="width:27%">
-                        <img class="small" src="./img/n_img/r_check_01.png" alt="" />
-                        <p>初回980円（税込）</p>
-                    </td>
-
-                    <td style="width:27%">
-                        <img class="small" src="./img/n_img/r_check_01.png" alt="" />
-                        <p>初回980円（税込）</p>
-                    </td>
-
-                    <td style="width:27%">
-                        <img class="small" src="./img/n_img/r_check_01.png" alt="" />
-                        <p>初回980円（税込）</p>
-                    </td>
-
-                    <td style="width:27%">
                         <img class="small" src="./img/n_img/r_check_02.png" alt="" />
-                        <p>初回1000円（税込）</p>
+                        <p>2,970円<br>（50％OFF）</p>
                     </td>
+
+                    <td style="width:27%">
+                        <img class="small" src="./img/n_img/r_check_01.png" alt="" />
+                        <p>500円<br>（85％OFF）</p>
+                    </td>
+
+                    <td style="width:27%">
+                        <img class="small" src="./img/n_img/r_check_01.png" alt="" />
+                        <p>980円<br>（74％OFF）</p>
+                    </td>
+
                 </tr>
 
                 <tr>
@@ -337,20 +270,18 @@
                     </td>
 
                     <td>
-                    <p>なし</p>
+                        <img class="small" src="./img/n_img/r_check_01.png" alt="" />
+                        <p class="red">365日全額返金保証</p>
                     </td>
 
                     <td>
-                        <p>なし</p>
+                        <p>-</p>
                     </td>
 
                     <td>
-                        <p>なし</p>
+                        <p>-</p>
                     </td>
-                    
-                    <td>
-                        <p>なし</p>
-                    </td>
+                   
                 </tr>
 
                 <tr>
@@ -362,25 +293,19 @@
 
                     <td>
                         <p class="left ml-5">
-                            ・食後の血糖値が気になる人<br>・糖の吸収を抑えたい人
+                            ・高めの尿酸値を下げたい<br>・脂肪（内臓脂肪）を減らしたい<br>・機能性表示食品を試したい
                         </p>
                     </td>
                     
                     <td>
                         <p class="left ml-5">
-                            ・健康診断で血糖値が高めの人<br>・今の血糖値対策に満足していない人
+                            ・高めの尿酸値を下げたい<br>・機能性表示食品を試したい
                         </p>
                     </td>
 
                     <td>
                         <p class="left ml-5">
-                            ・内臓脂肪・BMIが気になる人<br>・血糖値が気になる人<br>・中性脂肪が気になる人
-                        </p>
-                    </td>
-
-                    <td>
-                        <p class="left ml-5">
-                            ・血糖値・中性脂肪の上昇を抑えたい人<br>・色々な飲み方でアレンジしたい人<br>・整腸作用を重視したい人
+                            ・高めの尿酸値を下げたい<br>・機能性表示食品を試したい
                         </p>
                     </td>
 
@@ -394,28 +319,23 @@
                     </td>
 
                     <td>
-                        <a target="_blank" href="./links/tablet-k.php<?php echo "?".$_SERVER['QUERY_STRING'] ?>">
+                        <a target="_blank" href="./links/double.php<?php echo "?".$_SERVER['QUERY_STRING'] ?>">
                             <img src="./img/n_img/btn_site_go_s.png" width="100%">
                         </a>
                     </td>
 
                     <td>
-                        <a target="_blank" href="./links/tablet-s.php<?php echo "?".$_SERVER['QUERY_STRING'] ?>">
+                        <a target="_blank" href="./links/kiku.php<?php echo "?".$_SERVER['QUERY_STRING'] ?>">
                             <img src="./img/n_img/btn_site_go_s.png" width="100%">
                         </a>
                     </td>   
 
                     <td>
-                        <a target="_blank" href="./links/osaeru.php<?php echo "?".$_SERVER['QUERY_STRING'] ?>">
+                        <a target="_blank" href="./links/tablet-nyo.php<?php echo "?".$_SERVER['QUERY_STRING'] ?>">
                             <img src="./img/n_img/btn_site_go_s.png" width="100%">
                         </a>
                     </td>
 
-                    <td>
-                        <a target="_blank" href="./links/kaitou.php<?php echo "?".$_SERVER['QUERY_STRING'] ?>">
-                            <img src="./img/n_img/btn_site_go_s.png" width="100%">
-                        </a>
-                    </td>
 
                 </tr>
 
@@ -424,21 +344,6 @@
         </table>
 
     </div>
-
-    <!-- <div class="meta-notes">
-    <p>
-        ※1 糖の吸収を抑える機能性と、継続摂取により腸内環境を整える(おなかの中のビフィズス菌を増やす)機能性は機能性関与成分サラシノールによる研究レビュー<br>
-        2019年4月 消費者庁届出情報 錠剤型サプリメントの剤形で以下の3つの機能性を届出した機能性表示食品は日本初。当社調べ。
-    </p>
-    <p>
-        ※2 ①本品の継続摂取により BMI が高めの方のおなかの脂肪(体脂肪・内臓脂肪)・体重を減らすことで高めの BMI を改善する
-        ②機能性関与成分サラシノールが食事から摂取した糖の吸収を抑える
-        ③機能性関与成分サラシノールの継続摂取により腸内環境を整える(おなかの中のビフィズス菌を増やす)
-    </p>
-    <p>
-        ※3 継続摂取により BMIが高めの方のおなかの脂肪(体脂肪・内臓脂肪)・体重を減らすことで高めのBMIを改善する機能は、最終製品を用いた臨床試裝
-    </p>
-  </div> -->
 
 
     <!--比較表END-->
@@ -451,7 +356,7 @@
 <section id="section-03">
 
 
-  <h1 class="midashi">血糖値ケアサプリ選びで失敗しないための５つのポイント</h1>
+  <h1 class="midashi">尿酸値対策サプリ選びで失敗しないための５つのポイント</h1>
 
   <div class="txt-wrap">
 
@@ -469,7 +374,7 @@
         <span class="pink">機能性表示食品</span>かどうか
     </li>
     <li>
-        <span class="pink">「空腹時血糖値」</span>と<span class="pink">「食後の血糖値」</span>どちらをケアするサプリか確認
+        <span class="pink">高めの尿酸値を下げる成分</span>で比較
     </li>
     <li>
         実際に使っている人の<span class="pink">口コミ満足度</span>が高いか
@@ -478,7 +383,7 @@
         <span class="pink">続けやすい料金</span>になっているか
     </li>
     <li>
-        <span class="pink">悪徳メーカ</span>ーが出しているサプリではないか
+        <span class="pink">おなかの脂肪（内臓脂肪、皮下脂肪）を減らす成分</span>が同時配合されているとGood！
     </li>
 
   </ol>
@@ -487,7 +392,7 @@
   <div class="txt-wrap">
 
     <p>当サイトでは、上記ポイントを元にサプリを徹底的に調査しました！</p>
-    <p>本当におすすめの血糖値ケアサプリ6選をご紹介します！！</p>
+    <p>本当におすすめの尿酸値対策サプリ3をご紹介します！！</p>
 
     <div class="img-wrap arrow">
       <img src="./img/n_img/new_arrow.png" />
@@ -502,7 +407,7 @@
 <!--#section-03 end-->
 
 <div class="img-wrap">
-    <img id="rank_bn" src="./img/ranking/ranking-banner-pc-i.png" />
+    <img id="rank_bn" src="./img/ranking/ranking-banner-pc-j.png" />
 </div>
 
 
@@ -516,6 +421,7 @@
         <li rel="tab1" onclick="rank_bn.src='./img/ranking/ranking-banner-pc-a.png'">総合<br>人気ランキング</li>
         <li rel="tab3" onclick="rank_bn.src='./img/ranking/ranking-banner-pc-c.png'">脂肪対策<br>サプリ</li>
         <li rel="tab4" onclick="rank_bn.src='./img/ranking/ranking-banner-pc-d.png'">糖質ケア<br>サプリ</li>
+        <li rel="tab9" onclick="rank_bn.src='./img/ranking/ranking-banner-pc-j.png'">尿酸値対策<br>サプリ</li>
         <li rel="tab8" onclick="rank_bn.src='./img/ranking/ranking-banner-pc-h.png'">防風通聖散</li>
         <li rel="tab2" onclick="rank_bn.src='./img/ranking/ranking-banner-pc-b.png'">体内フローラ<br>サプリ</li>
         <li rel="tab5" onclick="rank_bn.src='./img/ranking/ranking-banner-pc-e.png'">酵素<br>サプリ</li>
@@ -536,7 +442,7 @@
 $(function() {
 
     $(".tab_content").hide();
-    $(".tab_content:nth-of-type(9)").show();
+    $(".tab_content:nth-of-type(10)").show();
 
     $("ul.tabs li").click(function() {
         $("ul.tabs li").removeClass("active").css("color", "#333");
