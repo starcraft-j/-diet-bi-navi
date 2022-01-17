@@ -67,9 +67,6 @@
                     <th class="crown">
                     </th>
 
-                    <th class="crown">
-                    </th>
-
                 </tr>
 
 
