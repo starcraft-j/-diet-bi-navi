@@ -177,6 +177,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
                 <img src="./img/fv/binavi_topBn_sp-i.jpg" />
 
+                <?php } elseif($_GET['pat'] == "j") { ?>
+
+                <img src="./img/fv/binavi_topBn_sp-j.jpg" />
+
                 <?php } elseif ($_SERVER['REQUEST_URI']=="/index_a-test.php") { ?>
 
                 <img src="./img/fv/binavi_topBn_sp-a-test.jpg" />

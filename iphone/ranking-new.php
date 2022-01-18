@@ -1831,6 +1831,195 @@
             <!-- .tab9 end -->
 
 
+            <!-- #tab9 血糖値ケアランキング-->
+            <div id="tab9" class="swiper-slide">
+
+
+            <?php wp_reset_postdata();
+
+            $args = array(
+                'posts_per_page' => '-1',
+                'category_name' => 'nyousan',
+                'post_type' => 'post',
+                'meta_key' => 'nyourank',
+                'orderby' => 'meta_value_num',
+                'order' => 'asc',
+            );
+
+
+            $the_query = new WP_Query($args);
+            $i = 1;
+            if ($the_query->have_posts()) :
+                while ($the_query->have_posts()) : $the_query->the_post();
+                    $point = get_field('point');
+                    $content = get_field('content');
+                    $catch = get_field('catch');
+                    $amount = get_field('amount');
+                    $quantity = get_field('quantity');
+                    $regularly = get_field('regularly');
+                    $onedayprice = get_field('onedayprice');
+                    $jenre = get_field('jenre');
+                    $url = get_field('url');
+                    $spurl = get_field('s_link');
+                    $rnkprice = get_field('rnk-price') ;
+
+            ?>
+
+
+
+            <table class="r-table" cellspacing="0">
+
+                <tbody>
+
+                    <tr>
+                    <?php if($i == 1) : ?>
+                        <th class="r-title no-ranking" colspan="2">
+                            <div class="img-center badge" style="position: absolute; top:0; left:10px;">
+                                <img src="./img/no1__badge.png" width="50" />
+                            </div>
+                    <?php else : ?>
+                        <th class="r-title no-ranking" colspan="2">
+                    <?php endif; ?>
+                            <p>
+
+                                <a target="_blank" href="<?php echo $url; ?><?php echo "?" . $query2; ?>"
+                                    target="_blank">
+                                    <span class="f-13"><?php the_title(); ?></span>
+                            
+                                </a>
+                            </p>　
+                        </th>
+                    </tr>
+
+                    <tr>
+                        <td class="r-img">
+
+                            <a target="_blank" href="<?php echo $url; ?><?php echo "?" . $query2; ?>" target="_blank">
+                                <?php the_post_thumbnail(); ?>
+                            </a>
+
+                        </td>
+
+                    </tr>
+
+                    <tr>
+
+                        <td>
+
+                            <ul class="r-list">
+                                <?php echo $point; ?>
+                            </ul>
+
+                        </td>
+
+                    </tr>
+
+                </tbody>
+            </table>
+
+
+
+
+            <div class="r-txtbox">
+
+                <?php echo $content; ?>
+
+                <a target="_blank" href="<?php echo $url; ?><?php echo "?" . $query2; ?>" target="_blank">
+                    <p class="link_txt">
+                        <?php if(!empty($catch)) : ?>
+                            <span class="link">→ <?php echo $catch; ?></span><br>
+                            <span class="link font-link">特別キャンペーンページはこちら</span>
+                        <?php else : ?>
+                            <span class="link font-link">→ 特別キャンペーンページはこちら</span>
+                        <?php endif; ?>
+                    </p>
+                </a>
+
+            </div>
+
+            <table class="r-r-table" cellspacing="1">
+                <tbody>
+                    <tr>
+                        <th>価格</th>
+                        <th>容量</th>
+                        <th>おすすめ度</th>
+                    </tr>
+                    <tr>
+                        <td>
+
+                            <?php echo $rnkprice; ?>
+
+                        </td>
+                        <td><?php echo $amount; ?></td>
+                        <td>
+                            <?php if($i === 1) : ?>
+                            <img alt="" src="./img/review_5.gif" />
+                            <?php elseif($i === 2) : ?>
+                            <img alt="" src="./img/review_45.gif" />
+                            <?php elseif($i === 3) : ?>
+                            <img alt="" src="./img/review_45.gif" />
+                            <?php elseif($i === 4) : ?>
+                            <img alt="" src="./img/review_4.gif" />
+                            <?php elseif($i === 5) : ?>
+                            <img alt="" src="./img/review_4.gif" />
+                            <?php elseif($i === 6) : ?>
+                            <img alt="" src="./img/review_35.gif" />
+                            <?php else : ?>
+                            <img alt="" src="./img/review_35.gif" />
+                            <?php endif; ?>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>サプリの種類</th>
+                        <th>
+                            配合成分
+                        </th>
+                        <th>
+                            1日あたりの価格
+                        </th>
+                    </tr>
+                    <tr>
+                        <td>機能性表示食品</td>
+                        <td><?php echo $quantity; ?></td>
+                        <td>
+                            <?php echo $onedayprice; ?>円
+                            <?php if( $post->ID == 1543 || $post->ID == 1553 || $post->ID == 1555 ) : ?>
+                                <sup>※</sup>
+                            <?php endif; ?>
+                        </td>
+                    </tr>
+
+                </tbody>
+            </table>
+
+            <?php if( $post->ID == 1543 ) : ?>
+                <div class="meta-notes"><p class="right">※定期価格<?php echo number_format($regularly); ?>円(税込)を30日分として計算</p></div>
+            <?php elseif( $post->ID == 1553 ) : ?>
+                <div class="meta-notes"><p class="right">※定期価格<?php echo number_format($regularly); ?>円(税込)を30日分として計算</p></div>
+            <?php elseif( $post->ID == 1555 ) : ?>
+                <div class="meta-notes"><p class="right">※定期価格<?php echo number_format($regularly); ?>円(税込)を30日分として計算</p></div>
+            <?php endif; ?>
+            <!--.r-r-table end-->
+            
+
+            <div class="img-btn">
+
+                <a target="_blank" href="<?php echo $url; ?><?php echo "?" . $query2; ?>" target="_blank">
+                    <img alt="" src="./img/n_img/btn_site_go_01.png" width="100%">
+                </a>
+            </div>
+
+
+            <?php $i++;
+                endwhile;
+                endif;
+                wp_reset_postdata(); ?>
+
+
+            </div>
+            <!-- .tab9 end -->
+
+
     </div>
     <!-- .swiper-wrapper end-->
 

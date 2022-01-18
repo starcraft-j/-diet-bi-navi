@@ -1768,7 +1768,7 @@
         <!-- .#tab9 end -->
 
         <!-- #tab10 尿酸値ランキング-->
-        <div id="tab9" class="tab_content">
+        <div id="tab10" class="tab_content">
 
             <?php wp_reset_postdata();
             
@@ -1912,11 +1912,23 @@
                         <td><?php echo $quantity; ?></td>
                         <td>
                             <?php echo $onedayprice; ?>円
+                            <?php if( $post->ID == 1543 || $post->ID == 1553 || $post->ID == 1555 ) : ?>
+                                <sup>※</sup>
+                            <?php endif; ?>
                         </td>
                     </tr>
 
                 </tbody>
             </table>
+            
+            <?php if( $post->ID == 1543 ) : ?>
+                <div class="meta-notes"><p class="right">※定期価格<?php echo number_format($regularly); ?>円(税込)を30日分として計算</p></div>
+            <?php elseif( $post->ID == 1553 ) : ?>
+                <div class="meta-notes"><p class="right">※定期価格<?php echo number_format($regularly); ?>円(税込)を30日分として計算</p></div>
+            <?php elseif( $post->ID == 1555 ) : ?>
+                <div class="meta-notes"><p class="right">※定期価格<?php echo number_format($regularly); ?>円(税込)を30日分として計算</p></div>
+            <?php endif; ?>
+
             <!--.r-r-table end-->
 
             <div class="img-btn">
