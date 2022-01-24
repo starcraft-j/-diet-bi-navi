@@ -390,15 +390,28 @@
 
 
         <?php wp_reset_postdata();
+
+                if($_GET['p'] == 'test') {
+                    $args = array(
+                        'posts_per_page' => '-1',
+                        'tag_id' => 23,
+                        'orderby' => 'meta_value_num',
+                        'meta_key' => 'test-rank',
+                        'orderby' => 'meta_value_num',
+                        'order' => 'asc',
+                        'post_status' => 'any',
+                    );
+                } else {
+                    $args = array(
+                        'posts_per_page' => '-1',
+                        'category_name' => 'burning',
+                        'post_type' => 'post',
+                        'meta_key' => 'burnrank',
+                        'orderby' => 'meta_value_num',
+                        'order' => 'asc',
+                    );
+                }
                 
-                $args = array(
-                    'posts_per_page' => '-1',
-                    'category_name' => 'burning',
-                    'post_type' => 'post',
-                    'meta_key' => 'burnrank',
-                    'orderby' => 'meta_value_num',
-					          'order' => 'asc',
-                );
                
 
                 $the_query = new WP_Query( $args );
@@ -415,7 +428,7 @@
                 $jenre= get_field('jenre');
                 $url= get_field('url');
                 $rnkprice = get_field('rnk-price') ;
-
+               
                 ?>
 
 
@@ -446,12 +459,10 @@
 
                 <tr>
                     <td class="r-img">
-
                         <a target="_blank" href="<?php echo $url; ?><?php echo "?".$_SERVER['QUERY_STRING']; ?>"
                             target="_blank">
                             <?php the_post_thumbnail(); ?>
                         </a>
-
                     </td>
 
                 </tr>
