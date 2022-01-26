@@ -112,7 +112,7 @@
                         <p>
                             <span class="lbg">
                                 <a target="_blank"
-                                    href="./links/double.php<?php echo "?".$_SERVER['QUERY_STRING'] ?>">ダブルバスター</a>
+                                    href="./links/double.php<?php echo "?".$_SERVER['QUERY_STRING'] ?>">尿酸と脂肪の<br>ダブルバスター</a>
                             </span>
                         </p>
                     </td>
@@ -129,7 +129,7 @@
                         <p>
                             <span class="lbg">
                                 <a target="_blank"
-                                    href="./links/table-nyo.php<?php echo "?".$_SERVER['QUERY_STRING'] ?>">尿酸値が高めの方のタブレット</a>
+                                    href="./links/table-nyo.php<?php echo "?".$_SERVER['QUERY_STRING'] ?>">尿酸値が高めの方の<br>タブレット</a>
                             </span>
                         </p>
                     </td>
@@ -174,7 +174,7 @@
                     
                     <td>
                         <img class="small" src="./img/n_img/r_check_01.png" alt="" />
-                        <p>アンセリン</p>
+                        <p>アンセリン、ブラックジンジャー由来ポリメトキシフラボン</p>
                     </td>
 
                     <td>
