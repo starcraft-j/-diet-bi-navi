@@ -235,7 +235,7 @@
                     
                     <td style="width:27%">
                         <img class="small" src="./img/n_img/r_check_02.png" alt="" />
-                        <p>2,970円<br>（50％OFF）</p>
+                        <p>1,980円<br>（67％OFF）<br><span class="red">当サイト経由の申込で特別クーポン-1,000円引き！</span></p>
                     </td>
 
                     <td style="width:27%">
