@@ -180,7 +180,7 @@
                 <span class="lbg">
                   <?php if($_GET['p'] == 'test') : ?>
                   <a target="_blank"
-                    href="./links/onaka.php<?php echo "?" . $_SERVER['QUERY_STRING'] ?>">おなかの脂肪が気になる方のためのタブレット<small>（粒タイプ）test</small></a>
+                    href="./links/onaka.php<?php echo "?" . $_SERVER['QUERY_STRING'] ?>">おなかの脂肪が気になる方のためのタブレット<small>（粒タイプ）</small></a>
                   <?php else : ?>
                   <a href="./links/onaka.php<?php echo "?" . $_SERVER['QUERY_STRING'] ?>">おなかの脂肪が気になる方のためのタブレット<small>（粒タイプ）</small></a>
                   
