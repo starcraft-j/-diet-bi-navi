@@ -128,9 +128,9 @@
         </p>
     </div>
     <div class="last-item item1">
-        <p><span class="bold">EGタイトLight</span> … <span class="red bold">肥満症</span>に効能効果を認められた、<span class="bg-y red bold">脂肪を落とす防風通聖散！</span></p>
+        <p><span class="bold">EGライフ</span> … <span class="red bold">肥満症</span>に効能効果を認められた、<span class="bg-y red bold">脂肪を落とす防風通聖散！</span></p>
         <p class="right">
-        <a target="_blank" href="https://bi-navi.com/links/eg.php<?php echo "?" . $query2; ?>">→ EGタイトLightを<br />
+        <a target="_blank" href="https://bi-navi.com/links/eg.php<?php echo "?" . $query2; ?>">→ EGライフを<br />
             お得に買える公式サイト
             </a>
         </p>

@@ -431,11 +431,7 @@
 
         <td>
           <img class="small" src="./img/n_img/r_check_01.png" alt="" />
-          <?php if($_GET['p'] == 'test') : ?>
-          <p>初回1,058円</p>
-          <?php else : ?>
           <p>初回980円</p>
-          <?php endif; ?>
         </td>
 
         <td>
