@@ -518,12 +518,15 @@
             </div>
             <?php endif; ?>
 
-
+            
             <a target="_blank" href="<?php echo $url; ?><?php echo "?".$_SERVER['QUERY_STRING']; ?>" target="_blank">
                 <p class="link_txt">
                     <?php if(!empty($catch)) : ?>
                         <span class="link">→ <?php echo $catch; ?></span><br>
-                        <span class="link font-link">特別キャンペーンページはこちら</span>
+                        <span class="link font-link">→ 特別キャンペーンページはこちら</span>
+                    <!-- お腹の脂肪が気になる方のタブレットtest -->
+                    <?php elseif($post->ID == 1580) : ?> 
+                        <span class="link font-link">初回限定！74%OFFでの購入はこちら</span>
                     <?php else : ?>
                         <span class="link font-link">→ 特別キャンペーンページはこちら</span>
                     <?php endif; ?>
