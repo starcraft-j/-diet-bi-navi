@@ -525,8 +525,8 @@
                         <span class="link">→ <?php echo $catch; ?></span><br>
                         <span class="link font-link">→ 特別キャンペーンページはこちら</span>
                     <!-- お腹の脂肪が気になる方のタブレットtest -->
-                    <?php elseif($post->ID == 1580) : ?> 
-                        <span class="link font-link">初回限定！74%OFFでの購入はこちら</span>
+                    <?php elseif(($post->ID == 1580) && ($_GET['p'] == 'test')) : ?> 
+                        <span class="link font-link">初回限定！85%OFFでの購入はこちら</span>
                     <?php else : ?>
                         <span class="link font-link">→ 特別キャンペーンページはこちら</span>
                     <?php endif; ?>
