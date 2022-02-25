@@ -7,7 +7,7 @@
 
   <div class="title-wrap">
 
-    <h1 class="left"><span class="red">「酵素ドリンクを使って効率的にファスティングしたい」<br>「プチ断食でスッキリ脂肪を落としたい」</span></h1>
+    <h1 class="left"><span class="red">「酵素ドリンクを使って効率的にファスティングしたい」<br>「プチ断食でスッキリしたい」</span></h1>
 
     <h1 class="right">とお悩みの方へ</span></h1>
 
