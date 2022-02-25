@@ -11,7 +11,7 @@
 
     <h1 class="right">とお悩みの方へ</span></h1><br>
 
-    <h1>本当におすすめ！<br>厳選！脂肪対策サプリ7選！</h1>
+    <h1>本当におすすめ！<br>厳選！脂肪対策サプリ6選！</h1>
 
   </div>
   <!--.title-wrap end-->
@@ -42,10 +42,9 @@
   <div id="overBox">
     <!--比較表START-->
 
-    <table class="table-01 table-over table-rank7" cellspacing="1">
+    <table class="table-01 table-over table-rank6" cellspacing="1">
 
       <colgroup width="50px">
-      <colgroup width="20%">
       <colgroup width="20%">
       <colgroup width="20%">
       <colgroup width="20%">
@@ -81,8 +80,6 @@
           <th class="crown">
           </th>
 
-          <th class="crown">
-          </th>
         </tr>
         
 
@@ -97,14 +94,6 @@
             <p style="margin-top: 10px">
               <a class="link-img" target="_blank" href="./links/sibo.php<?php echo "?" . $query2; ?>">
                 <img src="./img/shiboh.jpg" alt="" />
-              </a>
-            </p>
-          </th>
-
-          <th style="border-bottom: none;">
-            <p style="margin-top: 10px">
-              <a class="link-img" target="_blank" href="./links/onaka.php<?php echo "?" . $query2; ?>">
-                <img src="./img/onaka.jpg" alt="" />
               </a>
             </p>
           </th>
@@ -158,15 +147,6 @@
             <p>
               <span class="lbg">
                 <a target="_blank" href="./links/sibo.php<?php echo "?" . $query2; ?>">シボヘール</a>
-              </span>
-            </p>
-          </th>
-
-          <th style="border-top: none;">
-            <p>
-              <span class="lbg">
-                <a target="_blank"
-                  href="./links/onaka.php<?php echo "?" . $query2; ?>">おなかの脂肪が気になる方のためのタブレット<small>（粒タイプ）</small></a>
               </span>
             </p>
           </th>
@@ -230,13 +210,6 @@
             <p>
               <img src="./img/review_45.gif" alt="" />
             </p>
-            <p class="f-13">4.6/5.0</p>
-          </td>
-
-          <td>
-            <p>
-              <img src="./img/review_45.gif" alt="" />
-            </p>
             <p class="f-13">4.5/5.0</p>
           </td>
 
@@ -282,10 +255,6 @@
             <p>葛の花由来イソフラボン</p>
           </td>
 
-          <td>
-            <img class="small" src="./img/n_img/r_check_01.png" alt="" />
-            <p>葛の花由来イソフラボン（テクトリゲニン類として）</p>
-          </td>
 
           <td>
             <img class="small" src="./img/n_img/r_check_01.png" alt="" />
@@ -351,11 +320,6 @@
             <img class="small" src="./img/n_img/r_check_01.png" alt="" />
             <p>機能性表示食品</p>
           </td>
-
-          <td>
-            <img class="small" src="./img/n_img/r_check_01.png" alt="" />
-            <p>機能性表示食品</p>
-          </td>
         </tr>
 
 
@@ -368,11 +332,6 @@
           <td>
             <img class="small" src="./img/n_img/r_check_01.png" alt="" />
             <p>2,808円（定期）</p>
-          </td>
-
-          <td>
-            <img class="small" src="./img/n_img/r_check_01.png" alt="" />
-            <p>3,402円（定期）</p>
           </td>
 
           <td>
@@ -413,10 +372,6 @@
             <p>初回980円</p>
           </td>
 
-          <td>
-            <img class="small" src="./img/n_img/r_check_01.png" alt="" />
-            <p>初回980円</p>
-          </td>
 
           <td>
             <img class="small" src="./img/n_img/r_check_01.png" alt="" />
@@ -460,10 +415,6 @@
           </td>
 
           <td>
-            <p>なし</p>
-          </td>
-
-          <td>
             <p>30日間返金保証付き</p>
           </td>
 
@@ -489,11 +440,6 @@
 
           <td>
             <p>・お腹の脂肪が気になる<br>・脂肪対策サプリを手軽に試したい<br>・機能性表示食品を試したい</p>
-          </td>
-
-          <td>
-            <p>・体重・脂肪の増加が気になる人<br>・ウエスト周りを減らしたい人<br>・機能性表示食品を試したい人</p>
-            <p>※BMI25以上30未満の方が対象です</p>
           </td>
 
           <td>
@@ -527,12 +473,6 @@
 
           <td style="width:27%;">
             <a target="_blank" href="./links/sibo.php<?php echo "?" . $query2; ?>">
-              <img src="./img/n_img/btn_site_go_s.png" width="100%">
-            </a>
-          </td>
-
-          <td style="width:27%;">
-            <a target="_blank" href="./links/onaka.php<?php echo "?" . $query2; ?>">
               <img src="./img/n_img/btn_site_go_s.png" width="100%">
             </a>
           </td>
@@ -640,7 +580,7 @@
   <div class="txt-wrap">
 
     <p>当サイトでは、上記ポイントを元にサプリを徹底的に調査しました！</p>
-    <p>本当におすすめの脂肪対策サプリ7選をご紹介します！！</p>
+    <p>本当におすすめの脂肪対策サプリ6選をご紹介します！！</p>
 
     <div class="img-wrap arrow">
       <img src="./img/n_img/new_arrow.png" />
