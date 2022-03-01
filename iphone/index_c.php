@@ -11,7 +11,7 @@
 
     <h1 class="right">とお悩みの方へ</span></h1><br>
 
-    <h1>本当におすすめ！<br>厳選！脂肪対策サプリ6選！</h1>
+    <h1>本当におすすめ！<br>厳選！脂肪対策サプリ7選！</h1>
 
   </div>
   <!--.title-wrap end-->
@@ -42,9 +42,10 @@
   <div id="overBox">
     <!--比較表START-->
 
-    <table class="table-01 table-over table-rank6" cellspacing="1">
+    <table class="table-01 table-over table-rank7" cellspacing="1">
 
       <colgroup width="50px">
+      <colgroup width="20%">
       <colgroup width="20%">
       <colgroup width="20%">
       <colgroup width="20%">
@@ -80,6 +81,9 @@
           <th class="crown">
           </th>
 
+          <th class="crown">
+          </th>
+
         </tr>
         
 
@@ -94,6 +98,15 @@
             <p style="margin-top: 10px">
               <a class="link-img" target="_blank" href="./links/sibo.php<?php echo "?" . $query2; ?>">
                 <img src="./img/shiboh.jpg" alt="" />
+              </a>
+            </p>
+          </th>
+
+          <th style="border-bottom: none;">
+
+            <p style="margin-top: 10px">
+              <a class="link-img" target="_blank" href="./links/onaka.php<?php echo "?" . $query2; ?>">
+                <img src="./img/onaka-new.jpg" alt="" />
               </a>
             </p>
           </th>
@@ -147,6 +160,15 @@
             <p>
               <span class="lbg">
                 <a target="_blank" href="./links/sibo.php<?php echo "?" . $query2; ?>">シボヘール</a>
+              </span>
+            </p>
+          </th>
+
+           <th style="border-top: none;">
+            <p>
+              <span class="lbg">
+                <a target="_blank"
+                  href="./links/onaka.php<?php echo "?" . $query2; ?>">おなかの脂肪が気になる方のためのタブレット<small>（粒タイプ）a</small></a>
               </span>
             </p>
           </th>
@@ -210,6 +232,13 @@
             <p>
               <img src="./img/review_45.gif" alt="" />
             </p>
+            <p class="f-13">4.6/5.0</p>
+          </td>
+
+          <td>
+            <p>
+              <img src="./img/review_45.gif" alt="" />
+            </p>
             <p class="f-13">4.5/5.0</p>
           </td>
 
@@ -253,6 +282,11 @@
           <td>
             <img class="small" src="./img/n_img/r_check_01.png" alt="" />
             <p>葛の花由来イソフラボン</p>
+          </td>
+
+          <td>
+            <img class="small" src="./img/n_img/r_check_01.png" alt="" />
+            <p>葛の花由来イソフラボン（テクトリゲニン類として）</p>
           </td>
 
 
@@ -320,6 +354,11 @@
             <img class="small" src="./img/n_img/r_check_01.png" alt="" />
             <p>機能性表示食品</p>
           </td>
+
+          <td>
+            <img class="small" src="./img/n_img/r_check_01.png" alt="" />
+            <p>機能性表示食品</p>
+          </td>
         </tr>
 
 
@@ -330,34 +369,39 @@
           </td>
 
           <td>
-            <img class="small" src="./img/n_img/r_check_01.png" alt="" />
-            <p>2,808円（定期）</p>
-          </td>
+              <img class="small" src="./img/n_img/r_check_01.png" alt="" />
+              <p>2,808円(税込)（定期）</p>
+            </td>
 
-          <td>
-            <img class="small" src="./img/n_img/r_check_02.png" alt="" />
-            <p>5,364円</p>
-          </td>
+            <td>
+              <img class="small" src="./img/n_img/r_check_01.png" alt="" />
+              <p>3,402円(税込)（定期）</p>
+            </td>
 
-          <td>
-            <img class="small" src="./img/n_img/r_check_02.png" alt="" />
-            <p>3,808円（定期）</p>
-          </td>
+            <td>
+              <img class="small" src="./img/n_img/r_check_02.png" alt="" />
+              <p>5,364円(税込)（定期）</p>
+            </td>
 
-          <td>
-            <img class="small" src="./img/n_img/r_check_02.png" alt="" />
-            <p>4,441円（定期）</p>
-          </td>
+            <td>
+              <img class="small" src="./img/n_img/r_check_02.png" alt="" />
+              <p>3,808円(税込)（定期）</p>
+            </td>
 
-          <td>
-            <img class="small" src="./img/n_img/r_check_02.png" alt="" />
-            <p>3,990円（定期）</p>
-          </td>
+            <td>
+              <img class="small" src="./img/n_img/r_check_02.png" alt="" />
+              <p>4,441円(税込)（定期）</p>
+            </td>
 
-          <td>
-            <img class="small" src="./img/n_img/r_check_02.png" alt="" />
-            <p>4,082円（定期）</p>
-          </td>
+            <td>
+              <img class="small" src="./img/n_img/r_check_02.png" alt="" />
+              <p>3,990円(税込)（定期）</p>
+            </td>
+
+            <td>
+              <img class="small" src="./img/n_img/r_check_02.png" alt="" />
+              <p>4,082円(税込)（定期）</p>
+            </td>
         </tr>
 
 
@@ -369,33 +413,37 @@
 
           <td>
             <img class="small" src="./img/n_img/r_check_01.png" alt="" />
-            <p>初回980円</p>
-          </td>
-
-
-          <td>
-            <img class="small" src="./img/n_img/r_check_01.png" alt="" />
-            <p>初回540円</p>
+            <p>初回980円(税込)</p>
           </td>
 
           <td>
             <img class="small" src="./img/n_img/r_check_01.png" alt="" />
-            <p>初回980円</p>
+            <p>初回540円(税込)</p>
+          </td>
+          
+          <td>
+            <img class="small" src="./img/n_img/r_check_01.png" alt="" />
+            <p>初回540円(税込)</p>
           </td>
 
           <td>
             <img class="small" src="./img/n_img/r_check_01.png" alt="" />
-            <p>14日分(初回限定・お一人様1回1個限り) 540円</p>
+            <p>初回980円(税込)</p>
           </td>
 
           <td>
             <img class="small" src="./img/n_img/r_check_01.png" alt="" />
-            <p>初回限定500円</p>
+            <p>14日分(初回限定・お一人様1回1個限り) 540円(税込)</p>
+          </td>
+
+          <td>
+            <img class="small" src="./img/n_img/r_check_01.png" alt="" />
+            <p>初回限定500円(税込)</p>
           </td>
 
           <td>
             <img class="small" src="./img/n_img/r_check_02.png" alt="" />
-            <p>初回限定1,980円</p>
+            <p>初回限定1,980円(税込)</p>
           </td>
 
         </tr>
@@ -408,6 +456,10 @@
 
           <td>
             <p><span class="red">初回全額返金保証</span></p>
+          </td>
+
+          <td>
+            <p>なし</p>
           </td>
 
           <td>
@@ -443,6 +495,11 @@
           </td>
 
           <td>
+            <p>・体重・脂肪の増加が気になる人<br>・ウエスト周りが気になる人<br>・機能性表示食品を試したい人</p>
+            <small>※BMI25以上30未満の方が対象です</small>
+          </td>
+
+          <td>
             <p>・お腹の脂肪（体脂肪・内臓脂肪・皮下脂肪）を減らしたい人<br>・機能性表示食品を試したい人</p>
           </td>
 
@@ -473,6 +530,12 @@
 
           <td style="width:27%;">
             <a target="_blank" href="./links/sibo.php<?php echo "?" . $query2; ?>">
+              <img src="./img/n_img/btn_site_go_s.png" width="100%">
+            </a>
+          </td>
+
+          <td style="width:27%;">
+            <a target="_blank" href="./links/onaka.php<?php echo "?" . $query2; ?>">
               <img src="./img/n_img/btn_site_go_s.png" width="100%">
             </a>
           </td>
@@ -544,7 +607,7 @@
 <section id="section-03">
 
 
-  <h1 class="midashi">脂肪対策サプリ<br>選びで失敗しないための５つのポイント</h1>
+  <h1 class="midashi">脂肪対策サプリ選びの５つのポイント</h1>
 
   <div class="txt-wrap">
 
@@ -580,7 +643,8 @@
   <div class="txt-wrap">
 
     <p>当サイトでは、上記ポイントを元にサプリを徹底的に調査しました！</p>
-    <p>本当におすすめの脂肪対策サプリ6選をご紹介します！！</p>
+    
+    <p>本当におすすめの脂肪対策サプリ7選をご紹介します！！</p>
 
     <div class="img-wrap arrow">
       <img src="./img/n_img/new_arrow.png" />
@@ -595,7 +659,7 @@
 
 
 <div class="img-wrap">
-  <img id="rank_bn" src="./img/ranking/ranking-banner-sp-c.png" />
+  <img id="rank_bn" src="./img/ranking/ranking-banner-sp-c-new.png" />
 </div>
 
 <!----------------------------RANKING-------------------------->
@@ -607,7 +671,7 @@
       <li class="tab1 swiper-slide"><a href="#tab1"
           onclick="rank_bn.src='./img/ranking/ranking-banner-sp-a.png'">総合<br>人気ランキング</a></li>
       <li class="tab2 swiper-slide active"><a href="#tab2"
-          onclick="rank_bn.src='./img/ranking/ranking-banner-sp-c.png'">脂肪対策<br>サプリ</a></li>
+          onclick="rank_bn.src='./img/ranking/ranking-banner-sp-c-new.png'">脂肪対策<br>サプリ</a></li>
       <li class="tab3 swiper-slide"><a href="#tab3"
           onclick="rank_bn.src='./img/ranking/ranking-banner-sp-d.png'">糖質ケア<br>サプリ</a></li>
       <li class="tab4 swiper-slide"><a href="#tab4"

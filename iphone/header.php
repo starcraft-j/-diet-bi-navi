@@ -151,7 +151,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
                 <?php } elseif($_GET['pat'] == "c") { ?>
 
-                <img src="./img/fv/binavi_topBn_sp-c.jpg" />
+                <img src="./img/fv/binavi_topBn_sp-c-new.jpg" />
 
                 <?php } elseif($_GET['pat'] == "d") { ?>
 

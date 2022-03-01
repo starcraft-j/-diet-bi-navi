@@ -10,11 +10,8 @@
 
     <h1 class="right">とお悩みの方へ</span></h1>
 
-    <?php if($_GET['p'] == "test") : ?> 
     <h1 class="center">本当におすすめ！<br>厳選！脂肪対策サプリ7選！</h1>
-    <?php else : ?>
-    <h1 class="center">本当におすすめ！<br>厳選！脂肪対策サプリ6選！</h1>
-    <?php endif; ?>
+    
 
   </div>
   <!--.title-wrap end-->
@@ -24,12 +21,8 @@
     <p>当サイトでは数多くの脂肪対策サプリの成分や利用者の口コミを徹底調査！</p><br>
 
     <p>
-
-    <?php if($_GET['p'] == "test") : ?> 
       <span class="bold bg-y">【脂肪対策サプリの正しい選び方】</span>と<br>
-      <?php else : ?>
-      <span class="bold bg-y">【失敗しないサプリの正しい選び方】</span>と<br>
-      <?php endif; ?>
+    
       <span class="bold bg-y">【厳選！おすすめの脂肪対策サプリ】</span>をご紹介します。
     </p><br>
 
@@ -52,7 +45,6 @@
   <div id="overBox">
     <!--比較表START-->
 
-    <?php if($_GET['p'] == "test") : ?> 
     <table class="table-01 table-over table-rank7" cellspacing="1">
       <colgroup width="130">
       <colgroup width="40%">
@@ -62,16 +54,7 @@
       <colgroup width="40%">
       <colgroup width="40%">
       <colgroup width="40%">
-    <?php else : ?>
-    <table class="table-01 table-over table-rank6" cellspacing="1">
-      <colgroup width="130">
-      <colgroup width="40%">
-      <colgroup width="40%">
-      <colgroup width="40%">
-      <colgroup width="40%">
-      <colgroup width="40%">
-      <colgroup width="40%">
-    <?php endif; ?>
+   
 
             <tbody>
 
@@ -86,10 +69,8 @@
                   </p>
                 </th>
 
-                <?php if($_GET['p'] == "test") : ?> 
                 <th class="crown">
                 </th>
-                <?php endif; ?>
 
                 <th class="crown">
                 </th>
@@ -124,16 +105,14 @@
                 </p>
               </th>
 
-              <?php if($_GET['p'] == 'test') : ?>
               <th style="vertical-align: top">
                 <p>
                   <a class="link-img" target="_blank"
-                    href="./links/onaka-new.php<?php echo "?" . $_SERVER['QUERY_STRING'] ?>">
+                    href="./links/onaka.php<?php echo "?" . $_SERVER['QUERY_STRING'] ?>">
                     <img src="./img/onaka-new.jpg" alt="" />
                   </a>
                 </p>
               </th>
-              <?php endif; ?>
 
               <th style="vertical-align: top">
                 <p>
@@ -191,7 +170,6 @@
                 </span>
               </p>
             </td>
-            <?php if($_GET['p'] == 'test') : ?>
             <td>
               <p>
                 <span class="lbg">
@@ -200,7 +178,6 @@
                 </span>
               </p>
             </td>
-            <?php endif; ?>
             <td>
               <p>
                 <span class="lbg">
@@ -255,14 +232,12 @@
               <p class="f-13">4.9/5.0</p>
             </td>
 
-            <?php if($_GET['p'] == 'test') : ?>
             <td>
               <p>
                 <img src="./img/review_45.gif" alt="" />
               </p>
               <p class="f-13">4.6/5.0</p>
             </td>
-            <?php endif; ?>
 
             <td>
               <p>
@@ -313,12 +288,10 @@
               <p>葛の花由来イソフラボン</p>
             </td>
 
-            <?php if($_GET['p'] == 'test') : ?>
             <td>
               <img class="small" src="./img/n_img/r_check_01.png" alt="" />
               <p>葛の花由来イソフラボン（テクトリゲニン類として）</p>
             </td>
-            <?php endif; ?>
 
             <td>
               <img class="small" src="./img/n_img/r_check_01.png" alt="" />
@@ -359,12 +332,10 @@
               <p>機能性表示食品</p>
             </td>
 
-            <?php if($_GET['p'] == 'test') : ?>
             <td>
               <img class="small" src="./img/n_img/r_check_01.png" alt="" />
               <p>機能性表示食品</p>
             </td>
-            <?php endif; ?>
 
             <td>
               <img class="small" src="./img/n_img/r_check_01.png" alt="" />
@@ -401,39 +372,37 @@
 
             <td>
               <img class="small" src="./img/n_img/r_check_01.png" alt="" />
-              <p>2,808円<?php if($_GET['p'] == 'test') : ?>(税込)<?php endif; ?>（定期）</p>
+              <p>2,808円(税込)（定期）</p>
             </td>
 
-            <?php if($_GET['p'] == 'test') : ?>
             <td>
               <img class="small" src="./img/n_img/r_check_01.png" alt="" />
               <p>3,402円(税込)（定期）</p>
             </td>
-            <?php endif; ?>
 
             <td>
               <img class="small" src="./img/n_img/r_check_02.png" alt="" />
-              <p>5,364円<?php if($_GET['p'] == 'test') : ?>(税込)<?php endif; ?></p>
+              <p>5,364円(税込)（定期）</p>
             </td>
 
             <td>
               <img class="small" src="./img/n_img/r_check_02.png" alt="" />
-              <p>3,808円<?php if($_GET['p'] == 'test') : ?>(税込)<?php endif; ?>（定期）</p>
+              <p>3,808円(税込)（定期）</p>
             </td>
 
             <td>
               <img class="small" src="./img/n_img/r_check_02.png" alt="" />
-              <p>4,441円<?php if($_GET['p'] == 'test') : ?>(税込)<?php endif; ?>（定期）</p>
+              <p>4,441円(税込)（定期）</p>
             </td>
 
             <td>
               <img class="small" src="./img/n_img/r_check_02.png" alt="" />
-              <p>3,990円<?php if($_GET['p'] == 'test') : ?>(税込)<?php endif; ?>（定期）</p>
+              <p>3,990円(税込)（定期）</p>
             </td>
 
             <td>
               <img class="small" src="./img/n_img/r_check_02.png" alt="" />
-              <p>4,082円<?php if($_GET['p'] == 'test') : ?>(税込)<?php endif; ?>（定期）</p>
+              <p>4,082円(税込)（定期）</p>
             </td>
 
           </tr>
@@ -447,39 +416,37 @@
 
             <td>
               <img class="small" src="./img/n_img/r_check_01.png" alt="" />
-              <p>初回980円<?php if($_GET['p'] == 'test') : ?>(税込)<?php endif; ?></p>
+              <p>初回980円(税込)</p>
             </td>
 
-            <?php if($_GET['p'] == 'test') : ?>
             <td>
               <img class="small" src="./img/n_img/r_check_01.png" alt="" />
               <p>初回540円(税込)</p>
             </td>
-            <?php endif; ?>
             
             <td>
               <img class="small" src="./img/n_img/r_check_01.png" alt="" />
-              <p>初回540円<?php if($_GET['p'] == 'test') : ?>(税込)<?php endif; ?></p>
+              <p>初回540円(税込)</p>
             </td>
 
             <td>
               <img class="small" src="./img/n_img/r_check_01.png" alt="" />
-              <p>初回980円<?php if($_GET['p'] == 'test') : ?>(税込)<?php endif; ?></p>
+              <p>初回980円(税込)</p>
             </td>
 
             <td>
               <img class="small" src="./img/n_img/r_check_01.png" alt="" />
-              <p>14日分(初回限定・お一人様1回1個限り) 540円<?php if($_GET['p'] == 'test') : ?>(税込)<?php endif; ?></p>
+              <p>14日分(初回限定・お一人様1回1個限り) 540円(税込)</p>
             </td>
 
             <td>
               <img class="small" src="./img/n_img/r_check_01.png" alt="" />
-              <p>初回限定500円<?php if($_GET['p'] == 'test') : ?>(税込)<?php endif; ?></p>
+              <p>初回限定500円(税込)</p>
             </td>
 
             <td>
               <img class="small" src="./img/n_img/r_check_02.png" alt="" />
-              <p>初回限定1,980円<?php if($_GET['p'] == 'test') : ?>(税込)<?php endif; ?></p>
+              <p>初回限定1,980円(税込)</p>
             </td>
 
           </tr>
@@ -494,11 +461,9 @@
               <p><span class="red">初回全額返金保証</span></p>
             </td>
 
-            <?php if($_GET['p'] == 'test') : ?>
             <td>
               <p>なし</p>
             </td>
-            <?php endif; ?>
 
             <td>
               <p>なし</p>
@@ -532,12 +497,10 @@
               <p>・お腹の脂肪が気になる<br>・脂肪対策サプリを手軽に試したい<br>・安心の機能性表示食品を試したい</p>
             </td>
 
-            <?php if($_GET['p'] == 'test') : ?>
             <td>
               <p>・体重・脂肪の増加が気になる人<br>・ウエスト周りが気になる人<br>・機能性表示食品を試したい人</p>
               <small>※BMI25以上30未満の方が対象です</small>
             </td>
-            <?php endif; ?>
 
             <td>
               <p>・お腹の脂肪（体脂肪・内臓脂肪・皮下脂肪）を減らしたい人<br>・機能性表示食品を試したい人</p>
@@ -574,13 +537,11 @@
               </a>
             </td>
 
-            <?php if($_GET['p'] == 'test') : ?>
             <td>
               <a target="_blank" href="./links/onaka.php<?php echo "?" . $_SERVER['QUERY_STRING'] ?>">
                 <img src="./img/n_img/btn_site_go_s.png" width="100%">
               </a>
             </td>
-            <?php endif; ?>
 
             <td>
               <a target="_blank" href="./links/meta_pre.php<?php echo "?" . $_SERVER['QUERY_STRING'] ?>">
@@ -643,11 +604,7 @@
 
 <section id="section-03">
   <h1 class="midashi">
-  <?php if($_GET['p']=='test') : ?>
   脂肪対策サプリ選びの５つのポイント
-  <?php else : ?>
-  脂肪対策サプリ選びで失敗しないための５つのポイント
-  <?php endif; ?>
   </h1>
 
   <div class="txt-wrap">
@@ -684,11 +641,8 @@
   <div class="txt-wrap">
 
     <p>当サイトでは、上記ポイントを元にサプリを徹底的に調査しました！</p>
-    <?php if($_GET['p'] == 'test') : ?>
+    
     <p>本当におすすめの脂肪対策サプリ7選をご紹介します！！</p>
-    <?php else : ?>
-    <p>本当におすすめの脂肪対策サプリ6選をご紹介します！！</p>
-    <?php endif; ?>
     <div class="img-wrap arrow">
       <img src="./img/n_img/new_arrow.png" />
     </div>
@@ -703,11 +657,9 @@
 
 
 <div class="img-wrap">
-  <?php if($_GET['p'] == 'test') : ?>
+  
   <img id="rank_bn" src="./img/ranking/ranking-banner-pc-c-test.png" />
-  <?php else : ?>
-  <img id="rank_bn" src="./img/ranking/ranking-banner-pc-c.png" />
-  <?php endif; ?>
+
 </div>
 
 

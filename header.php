@@ -106,11 +106,8 @@ print '<?xml version="1.0" encoding="UTF-8"?>'; ?>
 
                 <?php } elseif ($_GET['pat'] == "c") { ?>
 
-                    <?php if($_GET['p'] == "test") : ?>
                     <img src="./img/fv/binavi_topBn_pc-c-test.jpg" />
-                    <?php else : ?>
-                    <img src="./img/fv/binavi_topBn_pc-c.jpg" />
-                    <?php endif; ?>
+                   
                     
 
                 <?php } elseif ($_GET['pat'] == "d") { ?>
