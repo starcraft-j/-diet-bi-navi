@@ -453,7 +453,7 @@
 
           <td>
             <img class="small" src="./img/n_img/r_check_02.png" alt="" width="35" />
-            <p>初回限定1,980円</p>
+            <p>初回限定980円</p>
           </td>
 
 
