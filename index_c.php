@@ -446,7 +446,7 @@
 
             <td>
               <img class="small" src="./img/n_img/r_check_02.png" alt="" />
-              <p>初回限定1,980円(税込)</p>
+              <p>初回限定980円(税込)</p>
             </td>
 
           </tr>
