@@ -9,7 +9,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })(window,document,'script','dataLayer','GTM-T329LCK');</script>
 <!-- End Google Tag Manager -->
 
- <!-- <meta http-equiv="refresh" content="1; URL=https://jf-d.jp/lp/shokansen_ig_y_coupon/?argument=acrYmmnJ&dmai=wbo_DGAF_0023"> -->
+ <meta http-equiv="refresh" content="1; URL=https://jf-d.jp/lp/shokansen_ig_y_coupon/?argument=acrYmmnJ&dmai=wbo_DGAF_0023">
 	<script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -70,8 +70,6 @@ var yahoo_retargeting_items = [{item_id: '', category_id: '', price: '', quantit
 /* ]]> */
 </script>
 <script type="text/javascript" language="javascript" src="https://b92.yahoo.co.jp/js/s_retargeting.js"></script>
-<div class="message-box">
-  <p>現在一時的にお申込みの受付を停止しております。<br>再開までしばらくお待ちください。</p>
-</div>
+
 </body>
 </html>

@@ -808,7 +808,7 @@
                 <?php endif; ?>
                 <?php if($post->ID == 941) : ?>
 
-                <a target="_blank" href="<?php echo $url; ?><?php echo "?".$_SERVER['QUERY_STRING']; ?>"
+                <a target="_blank" href="<?php echo $url; ?><?php echo "?" . $query2; ?>"
                     target="_blank">
                     <p class="link_txt">
                         <span class="link font-link">→ クーポン付きページはこちら</span>
