@@ -45,7 +45,7 @@ print '<?xml version="1.0" encoding="UTF-8"?>'; ?>
     <title>美ナビ</title>
     <meta name="keywords" content="" />
     <meta name="description" content="" />
-
+    <meta name="referrer" content="no-referrer-when-downgrade"/>
     <link rel="stylesheet" href="./style.css?<?php echo time(); ?>" type="text/css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link href="https://fonts.googleapis.com/earlyaccess/sawarabigothic.css" rel="stylesheet" />
