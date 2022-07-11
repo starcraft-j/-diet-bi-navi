@@ -347,6 +347,23 @@
                 <p>
                     <span class="bold">本格的な脂肪対策サプリに挑戦したい方には１番おすすめです。</span>
                 </p>
+            <?php elseif($post->ID == 1580) : ?>
+                <?php if($_GET['test'] =='true') : ?>
+                    <p><span class="red">おなかまわりの体脂肪、ウエストサイズ、体重が気になる</span>方にオススメ！<br>
+
+                    <div class="img-box"><img src="./img/new-onaka.jpg" alt=""></div>
+                    <!-- <hr> -->
+                    葛の花由来イソフラボン（テクトリゲニン類として）は、<span class="red">肥満気味 <sup>※1</sup>な方の体重やおなかの脂肪を減らすのを助ける</span>ことが報告されています。
+                    <hr>
+                    おなかの脂肪が気になる方のタブレット(粒タイプ)aは、<span class="red">初回限定で540円（税込）＋送料無料！この値段で30日分 <sup>※2</sup>なのでかなりお得</span>です！
+                    いつでもおやすみできるので、ライフスタイルにあわせやすいです♪
+                    <br><br>
+                    おなかまわりの脂肪が気になっている方はぜひ試してみてくださいね♪
+                    </p>
+                    <sup>※1　肥満気味＝BMI25以上30未満</sup><br><sup>※2　摂取目安量：1日3粒</sup><br>
+                <?php else : ?>
+                    <?php echo $content; ?>
+                <?php endif; ?>
             <?php else : ?>
                 <?php echo $content; ?>
             <?php endif; ?>
